@@ -1,0 +1,22 @@
+.portofolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+
+  /** For mobile devices **/
+  @media (min-width: 820px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+}
+
+

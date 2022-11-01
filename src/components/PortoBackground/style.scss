@@ -1,0 +1,56 @@
+.porto-background {
+  position: absolute;
+  height: 82%;
+  width: 100%;
+  background: #4b6cb7;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  z-index: -10;
+
+  @media (min-width: 820px) {
+    // background-color: blue;
+  }
+
+  .custom-shape-divider-top-1667193888 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1667193888 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 158px;
+    margin-bottom: -1px;
+  }
+
+  .custom-shape-divider-top-1667193888 .shape-fill {
+    fill: #ffffff;
+  }
+
+  //Bottom
+  .custom-shape-divider-bottom-1667193965 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1667193965 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 158px;
+    margin-bottom: -2px;
+  }
+
+  .custom-shape-divider-bottom-1667193965 .shape-fill {
+    fill: #ffffff;
+  }
+}
