@@ -3,6 +3,7 @@ import Portofolio from "../../components/Portofolio";
 import ShapeDivider from "../../components/ShapeDivider";
 import Wrapper from "../../components/Wrapper";
 import Language from "../../components/Language";
+import Chain from "../../components/Chain";
 import staticData from "../../const/static";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     navList: staticData.navList,
     portoList: staticData.portoList,
     languageList: staticData.languageList,
+    chainList: staticData.chainList
   };
 
   return (
@@ -19,6 +21,7 @@ const Home = () => {
       <ShapeDivider></ShapeDivider>
       <Portofolio {...props}></Portofolio>
       <Language {...props}></Language>
+      <Chain {...props}></Chain>
     </div>
   );
 };

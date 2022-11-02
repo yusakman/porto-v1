@@ -1,0 +1,53 @@
+.chain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+
+  .chain-title {
+  }
+
+  .chain-text {
+    width: 400px;
+    margin-bottom: 20px;
+
+    @media (min-width: 820px) {
+        width: 600px;
+      }
+  }
+
+  .chain-list {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+
+    @media (min-width: 820px) {
+      width: 80%;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .item-icon {
+        width: 80px;
+        height: 80px;
+        padding: 0.5rem;
+
+        @media (min-width: 820px) {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+
+.chain h4 {
+    width: 400px;
+}

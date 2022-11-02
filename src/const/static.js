@@ -12,6 +12,15 @@ import imageL6 from "../assets/images-language/react-icon.svg";
 import imageL7 from "../assets/images-language/bootstrap-icon.svg";
 import imageL8 from "../assets/images-language/web3js-icon.svg";
 import imageL9 from "../assets/images-language/angular-icon.svg";
+import imageL10 from "../assets/images-language/gatsby-js-icon.svg";
+
+import imgChain1 from "../assets/images-chain/ethereum-icon.svg"
+import imgChain2 from "../assets/images-chain/binance-icon.png"
+import imgChain3 from "../assets/images-chain/polygon-icon.svg"
+import imgChain4 from "../assets/images-chain/fantom-icon.png"
+import imgChain5 from "../assets/images-chain/avax-icon.svg"
+
+
 
 const staticData = {
   navList: [
@@ -89,7 +98,33 @@ const staticData = {
       name: "Angular",
       imgUrl: imageL9,
     },
+    {
+      name: "Gatsby",
+      imgUrl: imageL10,
+    }
   ],
+  chainList: [
+    {
+      name: 'Ethereum',
+      imgUrl: imgChain1
+    },
+    {
+      name: "BSC",
+      imgUrl: imgChain2,
+    },
+    {
+      name: "Polygon",
+      imgUrl: imgChain3,
+    },
+    {
+      name: "Fantom",
+      imgUrl: imgChain4,
+    },
+    {
+      name: "Avalanche",
+      imgUrl: imgChain5,
+    },
+  ]
 };
 
 export default staticData;
