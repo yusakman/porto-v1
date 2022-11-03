@@ -20,15 +20,19 @@ import imgChain3 from "../assets/images-chain/polygon-icon.svg"
 import imgChain4 from "../assets/images-chain/fantom-icon.png"
 import imgChain5 from "../assets/images-chain/avax-icon.svg"
 
+import imgIcon1 from "../assets/social-imgs/github-icon.svg"
+import imgIcon2 from "../assets/social-imgs/twitter-icon.svg"
+import imgIcon3 from "../assets/social-imgs/instagram-icon.svg"
+import imgIcon4 from "../assets/social-imgs/facebook-icon.svg"
 
 
 const staticData = {
   navList: [
     {
-      text: "About",
+      text: "Portofolio",
     },
     {
-      text: "Portofolio",
+      text: "Tech",
     },
     {
       text: "Contact",
@@ -123,6 +127,24 @@ const staticData = {
     {
       name: "Avalanche",
       imgUrl: imgChain5,
+    },
+  ],
+  iconList: [
+    {
+      name: "Github",
+      imgUrl: imgIcon1,
+    },
+    {
+      name: "Twitter",
+      imgUrl: imgIcon2,
+    },
+    {
+      name: "Instagram",
+      imgUrl: imgIcon3,
+    },
+    {
+      name: "Facebook",
+      imgUrl: imgIcon4,
     },
   ]
 };

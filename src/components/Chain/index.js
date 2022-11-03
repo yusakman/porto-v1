@@ -6,7 +6,7 @@ const Chain = (props) => {
 
   return (
     <div className="chain">
-      <h2 className="chain-title">EVN Chain I'm farmiliar with</h2>
+      <h2 className="chain-title">EVN Chains I'm farmiliar with</h2>
       <p className="chain-text">
         There are more than 80 EVN Chains where you can develop your blockchain
         applications. Let me help you build your blockchain applications.
@@ -20,7 +20,7 @@ const Chain = (props) => {
         ))}
       </div>
       <h4>
-        And 80+ more EVM Chains. Non-EVM are also welcome, let me know which chain you want to develop
+        And 80+ more EVM Chains. Non-EVM are also welcome, let me know which chain do you want to develop
         with.
       </h4>
     </div>

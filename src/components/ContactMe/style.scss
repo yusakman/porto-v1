@@ -26,6 +26,10 @@
     border: none;
   }
 
+  .form-textarea textarea {
+    height: 90px;
+  }
+
   .form-name input:hover {
     cursor: pointer;
   }
@@ -44,7 +48,7 @@
   }
 
   .contact-me-btn {
-    margin: 20px auto;
+    margin: 20px auto 30px auto;
     width: 100%;
     background: rgb(75, 108, 183);
     background: linear-gradient(
@@ -62,4 +66,11 @@
   .contact-me-btn:hover {
     cursor: pointer;
   }
+}
+
+.contact-me form {
+    
+    @media (min-width: 820px) {
+        width: 300px;
+    }
 }

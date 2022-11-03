@@ -13,7 +13,8 @@ const Home = () => {
     navList: staticData.navList,
     portoList: staticData.portoList,
     languageList: staticData.languageList,
-    chainList: staticData.chainList
+    chainList: staticData.chainList,
+    iconList: staticData.iconList,
   };
 
   return (
@@ -25,7 +26,7 @@ const Home = () => {
       <Language {...props}></Language>
       <Chain {...props}></Chain>
       <ContactMe></ContactMe>
-      <Footer></Footer>
+      <Footer {...props}></Footer>
     </div>
   );
 };
