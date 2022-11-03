@@ -5,6 +5,8 @@ import Wrapper from "../../components/Wrapper";
 import Language from "../../components/Language";
 import Chain from "../../components/Chain";
 import staticData from "../../const/static";
+import ContactMe from "../../components/ContactMe"; 
+import Footer from "../../components/Footer";
 
 const Home = () => {
   const props = {
@@ -22,6 +24,8 @@ const Home = () => {
       <Portofolio {...props}></Portofolio>
       <Language {...props}></Language>
       <Chain {...props}></Chain>
+      <ContactMe></ContactMe>
+      <Footer></Footer>
     </div>
   );
 };

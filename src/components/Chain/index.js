@@ -21,7 +21,7 @@ const Chain = (props) => {
       </div>
       <h4>
         And 80+ more EVM Chains. Non-EVM are also welcome, let me know which chain you want to develop
-        with
+        with.
       </h4>
     </div>
   );

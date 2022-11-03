@@ -1,0 +1,65 @@
+.contact-me {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+
+  .form-name {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .form-name label {
+    margin-right: 5%;
+  }
+
+  .form-name input,
+  .form-email input,
+  .form-textarea textarea {
+    min-width: 100%;
+    border-radius: 10px;
+    padding: 2px;
+    border: none;
+  }
+
+  .form-name input:hover {
+    cursor: pointer;
+  }
+
+  .form-email {
+    margin: 10px auto;
+  }
+
+  .form-email label {
+    margin-right: 6%;
+  }
+
+  .form-textarea {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-me-btn {
+    margin: 20px auto;
+    width: 100%;
+    background: rgb(75, 108, 183);
+    background: linear-gradient(
+      0deg,
+      rgba(75, 108, 183, 1) 0%,
+      rgba(255, 138, 217, 1) 100%
+    );
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+  }
+
+  .contact-me-btn:hover {
+    cursor: pointer;
+  }
+}
