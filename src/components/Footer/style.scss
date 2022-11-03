@@ -56,14 +56,15 @@
       }
     }
 
-    .nav-list p {
+    .nav-list a {
+      text-decoration: none;
       margin: 0px;
       @media (min-width: 820px) {
         margin: 10px;
       }
     }
 
-    .nav-list p:hover {
+    .nav-list a:hover {
       background: radial-gradient(
         circle,
         rgba(75, 108, 183, 1) 0%,

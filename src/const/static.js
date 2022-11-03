@@ -30,12 +30,15 @@ const staticData = {
   navList: [
     {
       text: "Portofolio",
+      url: "http://localhost:3000/#portofolio",
     },
     {
       text: "Tech",
+      url:"http://localhost:3000/#tech-stacks"
     },
     {
       text: "Contact",
+      url:"http://localhost:3000/#contact"
     },
   ],
   portoList: [
@@ -133,18 +136,22 @@ const staticData = {
     {
       name: "Github",
       imgUrl: imgIcon1,
+      url:"https://github.com/yusakman",
     },
     {
       name: "Twitter",
       imgUrl: imgIcon2,
+      url: "https://twitter.com/yusak_man",
     },
     {
       name: "Instagram",
       imgUrl: imgIcon3,
+      url: "https://www.instagram.com/yusak_man/",
     },
     {
       name: "Facebook",
       imgUrl: imgIcon4,
+      url: "https://www.facebook.com/yusak.manullang.50",
     },
   ]
 };

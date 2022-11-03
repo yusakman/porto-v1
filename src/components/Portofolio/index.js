@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Portofolio = (props) => {
   return (
-    <div className="portofolio">
+    <div className="portofolio" id="portofolio">
       <motion.div whileHover={{rotate: 360}}>
         <h2 className="porto-title">Portofolio</h2>
       </motion.div>

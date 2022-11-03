@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 const Navbar = (props) => {
   const { navList } = props;
   return (
-    <div className="navbar">
+    <div className="navbar" id="navbar">
       <motion.div whileHover={{rotate: 360}}>
         <img src={logo} className="navlogo"></img>
       </motion.div>
 
       <div className="navright">
         {navList.map((item) => (
-          <a href="#">{item.text}</a>
+          <a href={item.url} key={item.url}>{item.text}</a>
         ))}
       </div>
     </div>

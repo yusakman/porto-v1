@@ -12,7 +12,7 @@ const Language = (props) => {
   }, []);
 
   return (
-    <div className="language">
+    <div className="language" id="tech-stacks">
       <motion.div whileHover={{ rotate: 360 }}>
         <h2 className="language-title">Tech Stacks</h2>
       </motion.div>
@@ -28,8 +28,8 @@ const Language = (props) => {
         >
           {languageList.map((item) => (
             <motion.div className="item">
-              <img src={item.imgUrl} alt="" className="item-icon"></img>
-              <p className="item-name">{item.name}</p>
+              <img src={item.imgUrl} alt="" className="item-icon" ></img>
+              <p className="item-name" key={item.name}>{item.name}</p>
             </motion.div>
           ))}
         </motion.div>

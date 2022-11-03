@@ -48,7 +48,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="contact-me">
+    <div className="contact-me" id="contact">
       <h2 className="contact-me-title">Contact Me</h2>
       <form ref={form} className="contact-me-form">
         <div className="form-name">
