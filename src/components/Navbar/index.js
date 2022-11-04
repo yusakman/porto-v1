@@ -7,7 +7,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar" id="navbar">
       <motion.div whileHover={{rotate: 360}}>
-        <img src={logo} className="navlogo"></img>
+        <img src={logo} className="navlogo" alt=""></img>
       </motion.div>
 
       <div className="navright">

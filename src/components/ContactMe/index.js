@@ -1,29 +1,31 @@
 import "./style.scss";
-import { FormGroup, Label, Input, Button } from "reactstrap";
-import React, { useState, useRef } from "react";
+import { Label, Input, Button } from "reactstrap";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactMe = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
   const form = useRef();
 
-  const handleName = (e) => {
-    e.preventDefault();
-    setName(e.target.value);
-  };
+  // Form Config if we change the email service
 
-  const handleEmail = (e) => {
-    e.preventDefault();
-    setEmail(e.target.value);
-  };
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const handleMessage = (e) => {
-    e.preventDefault();
-    setMessage(e.target.value);
-  };
+  // const handleName = (e) => {
+  //   e.preventDefault();
+  //   setName(e.target.value);
+  // };
+
+  // const handleEmail = (e) => {
+  //   e.preventDefault();
+  //   setEmail(e.target.value);
+  // };
+
+  // const handleMessage = (e) => {
+  //   e.preventDefault();
+  //   setMessage(e.target.value);
+  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -37,7 +39,7 @@ const ContactMe = () => {
       )
       .then(
         (result) => {
-          console.log(result.text)
+          console.log(result.text);
           console.log("email sent");
         },
         (error) => {
@@ -58,9 +60,9 @@ const ContactMe = () => {
             name="user_name"
             placeholder="your name"
             type="text"
-            onChange={(e) => {
-              handleName(e);
-            }}
+            // onChange={(e) => {
+            //   handleName(e);
+            // }}
           />
         </div>
         <div className="form-email">
@@ -70,9 +72,9 @@ const ContactMe = () => {
             name="user_email"
             placeholder="your email"
             type="email"
-            onChange={(e) => {
-              handleEmail(e);
-            }}
+            // onChange={(e) => {
+            //   handleEmail(e);
+            // }}
           />
         </div>
         <div className="form-textarea">
@@ -81,9 +83,9 @@ const ContactMe = () => {
             id="textArea"
             name="message"
             type="textarea"
-            onChange={(e) => {
-              handleMessage(e);
-            }}
+            // onChange={(e) => {
+            //   handleMessage(e);
+            // }}
           />
         </div>
         <Button className="contact-me-btn" onClick={(e) => handleSubmit(e)}>
