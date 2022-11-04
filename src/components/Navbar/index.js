@@ -1,4 +1,4 @@
-import logo from "../../assets/y-logo.png";
+import logo from "../../assets/avatar.jpg";
 import "./style.scss";
 import { motion } from "framer-motion";
 

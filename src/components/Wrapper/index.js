@@ -19,7 +19,7 @@ const Wrapper = () => {
         <motion.div
           whileHover={{scale: 1.09}}
         >
-          <button className="wrapper-btn">Learn More About Me</button>
+          <a href="/#contact"><button className="wrapper-btn">Contact Me</button></a>
         </motion.div>
       </div>
     </div>
