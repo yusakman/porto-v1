@@ -30,15 +30,15 @@ const staticData = {
   navList: [
     {
       text: "Portofolio",
-      url: "http://localhost:3000/#portofolio",
+      url: "/#portofolio",
     },
     {
       text: "Tech",
-      url:"http://localhost:3000/#tech-stacks"
+      url:"/#tech-stacks"
     },
     {
       text: "Contact",
-      url:"http://localhost:3000/#contact"
+      url:"/#contact"
     },
   ],
   portoList: [
