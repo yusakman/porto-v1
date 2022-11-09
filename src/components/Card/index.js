@@ -13,7 +13,7 @@ const Card = (props) => {
               <p className="card-desc">{item.desc}</p>
             </motion.div>
           </div>
-          <img src={item.imgUrl} alt="" className="card-img"></img>
+          <a href={item.projectUrl}><img src={item.imgUrl} alt="" className="card-img"></img></a>
         </div>
       ))}
     </div>

@@ -43,29 +43,34 @@ const staticData = {
   ],
   portoList: [
     {
-      name: "Ergo DEX",
-      desc: "Ergo is a simple DEX Aggregator",
+      name: "Moirai Aggregator",
+      desc: "Moirai is a simple DEX Aggregator",
       imgUrl: image1,
+      projectUrl: `https://github.com/yusakman/moirai-aggregator`
     },
     {
       name: "ReStaking",
       desc: "ReStaking is an app for staking LP tokens",
       imgUrl: image2,
+      projectUrl: `https://github.com/yusakman`
     },
     {
       name: "Mesopotamia",
       desc: "Mesopotamia is a DEX with Order Book features.",
       imgUrl: image3,
+      projectUrl: `https://github.com/yusakman`
     },
     {
       name: "Indo Car Rental",
       desc: "Car Rental platform for Indonesian users.",
       imgUrl: image4,
+      projectUrl: `https://github.com/Indo-Car-Rental/IndoCarRental-Web-App`
     },
     {
       name: "DeFi ID",
       desc: "Simple DeFi information web app",
       imgUrl: image5,
+      projectUrl: `https://github.com/yusakman`
     },
   ],
   languageList: [
