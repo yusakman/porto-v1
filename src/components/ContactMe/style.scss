@@ -47,6 +47,16 @@
     flex-direction: column;
   }
 
+  button:disabled,
+  button[disabled] {
+    background: linear-gradient(
+      0deg,
+      rgb(137 137 137) 0%,
+      rgb(148 126 141) 100%
+    );
+    color: #676767;
+  }
+
   .contact-me-btn {
     margin: 20px auto 30px auto;
     width: 100%;
@@ -69,8 +79,7 @@
 }
 
 .contact-me form {
-    
-    @media (min-width: 820px) {
-        width: 300px;
-    }
+  @media (min-width: 820px) {
+    width: 300px;
+  }
 }

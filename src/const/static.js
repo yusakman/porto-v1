@@ -43,26 +43,20 @@ const staticData = {
   ],
   portoList: [
     {
+      name: "Sample OrderBook DEX",
+      desc: "An Order Book DEX on Goerli Testnet.",
+      imgUrl: image3,
+      projectUrl: `https://sweet-meadow-5072.on.fleek.co/`
+    },
+    {
       name: "Moirai Aggregator",
       desc: "Moirai is a simple DEX Aggregator",
       imgUrl: image1,
       projectUrl: `https://github.com/yusakman/moirai-aggregator`
     },
     {
-      name: "ReStaking",
-      desc: "ReStaking is an app for staking LP tokens",
-      imgUrl: image2,
-      projectUrl: `https://github.com/yusakman`
-    },
-    {
-      name: "Mesopotamia",
-      desc: "Mesopotamia is a DEX with Order Book features.",
-      imgUrl: image3,
-      projectUrl: `https://github.com/yusakman`
-    },
-    {
       name: "Indo Car Rental",
-      desc: "Car Rental platform for Indonesian users.",
+      desc: "Car Rental platform for Indonesian users",
       imgUrl: image4,
       projectUrl: `https://github.com/Indo-Car-Rental/IndoCarRental-Web-App`
     },
@@ -70,6 +64,12 @@ const staticData = {
       name: "DeFi ID",
       desc: "Simple DeFi information web app",
       imgUrl: image5,
+      projectUrl: `https://www.defiid.finance/`
+    },
+    {
+      name: "ReStaking",
+      desc: "ReStaking is an app for staking LP tokens",
+      imgUrl: image2,
       projectUrl: `https://github.com/yusakman`
     },
   ],
